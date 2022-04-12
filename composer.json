@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "symfony/framework-bundle": "^4.0",
+        "symfony/framework-bundle": "^4.0|^5.0",
         "simplesamlphp/simplesamlphp": "^1.15.0"
     },
     "autoload": {
