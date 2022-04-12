@@ -31,5 +31,7 @@ class Configuration implements ConfigurationInterface
                 ->scalarNode('authentication_attribute')->defaultValue('uid')->end()
             ->end()
         ;
+        
+        return $treeBuilder;
     }
 }
